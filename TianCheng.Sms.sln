@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TianCheng.Model", "..\TianCheng.Model\src\TianCheng.Model.csproj", "{A81959E7-0EBF-4943-AD00-7855BCE5C443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ref", "Ref", "{B58B7CEC-0B29-49BB-9C47-E5FB82CC2F01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TianCheng.BaseService", "..\TianCheng.BaseService\src\TianCheng.BaseService.csproj", "{04D312B6-CB61-4708-A181-E0AB5A3D8B5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TianCheng.DAL.MongoDB", "..\TianCheng.DAL.MongoDB\src\TianCheng.DAL.MongoDB.csproj", "{E6A6DB85-CCBD-45FB-B56A-77F9D7BC8E97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{4784B6D2-DC81-43CC-B2AB-4CB727AF2B7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C9AF97A8-7139-4577-A239-77F2C92E73CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TianCheng.Sms", "src\TianCheng.Sms.csproj", "{7A6067C8-8A4E-4A30-BCDA-A8D5B44285BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81959E7-0EBF-4943-AD00-7855BCE5C443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81959E7-0EBF-4943-AD00-7855BCE5C443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81959E7-0EBF-4943-AD00-7855BCE5C443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81959E7-0EBF-4943-AD00-7855BCE5C443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D312B6-CB61-4708-A181-E0AB5A3D8B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D312B6-CB61-4708-A181-E0AB5A3D8B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D312B6-CB61-4708-A181-E0AB5A3D8B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D312B6-CB61-4708-A181-E0AB5A3D8B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A6DB85-CCBD-45FB-B56A-77F9D7BC8E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A6DB85-CCBD-45FB-B56A-77F9D7BC8E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A6DB85-CCBD-45FB-B56A-77F9D7BC8E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A6DB85-CCBD-45FB-B56A-77F9D7BC8E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6067C8-8A4E-4A30-BCDA-A8D5B44285BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6067C8-8A4E-4A30-BCDA-A8D5B44285BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6067C8-8A4E-4A30-BCDA-A8D5B44285BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6067C8-8A4E-4A30-BCDA-A8D5B44285BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A81959E7-0EBF-4943-AD00-7855BCE5C443} = {B58B7CEC-0B29-49BB-9C47-E5FB82CC2F01}
+		{04D312B6-CB61-4708-A181-E0AB5A3D8B5E} = {B58B7CEC-0B29-49BB-9C47-E5FB82CC2F01}
+		{E6A6DB85-CCBD-45FB-B56A-77F9D7BC8E97} = {B58B7CEC-0B29-49BB-9C47-E5FB82CC2F01}
+		{7A6067C8-8A4E-4A30-BCDA-A8D5B44285BA} = {C9AF97A8-7139-4577-A239-77F2C92E73CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB60AAD6-E6E4-481D-A1AA-168B06A8B330}
+	EndGlobalSection
+EndGlobal
